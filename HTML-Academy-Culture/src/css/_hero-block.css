@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  background: url(../img/Hotel-11.png) center no-repeat;
+  background-size: cover;
+}
+.hero-block {
+  color: white;
+  width: 100%;
+}
+.hero-block__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-block__logo {
+  margin-top: 50px;
+}
+.hero-block__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+.hero-block__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  width: 456px;
+  height: 64px;
+  margin-top: 140px;
+  margin-bottom: 48px;
+}
