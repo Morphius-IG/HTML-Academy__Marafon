@@ -1,0 +1,52 @@
+.tickets {
+
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  &-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 707px;
+    height: 556px;
+    background: url(../img/ellipse.png) center no-repeat;
+    background-size: cover; 
+
+    &__title {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin: 44px 135px 35px;
+      }
+      &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 370px;
+        margin-bottom: 24px;
+        position: relative; 
+      }
+
+      &__subtitle {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: "Playfair Display";
+        font-size: 23px;
+        font-weight: 900;
+      }
+      &__text {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 25px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+  }
+}
